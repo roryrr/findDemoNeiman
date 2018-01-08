@@ -41,10 +41,10 @@ Note: This port can be changed in `Gruntfile.js`
 
 By here, your front end would be ready.
 
-#Running Node application
+###Running Node application
 In the project folder, run the command "node app.js". This will start the node application.
 
-#Starting MongoDB
+###Starting MongoDB
 The easiest way would be to install an app called MongoDB Compass and start MongoDB from there.
 
 Once all the above three are up, the Demo would work as expected.

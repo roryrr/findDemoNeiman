@@ -1,14 +1,13 @@
 #eb-empathize {
   position: fixed;
-  border: none;
   margin-top: -1px;
 
   ul {
     &.eb-empathize-history {
-      background: @main-color-light;
+      background: @main-color;
 
       li {
-        color: white;
+        color: @secondary-color;
         background-color: transparent;
         position: relative;
 
@@ -39,15 +38,14 @@
         }
 
         &:hover {
-          background-color: @secondary-color !important;
+          background-color: #e0e0e0 !important;
         }
       }
     }
   }
 
   li {
-    border-top: solid 1px @secondary-color;
-    background-color: @main-color-light;
+    background-color: @main-color;
     color: @secondary-color;
     font-weight: 200;
     padding-left: 36px;
@@ -59,9 +57,8 @@
 
   .eb-empathize-selected,
   li:hover {
-    background-color: white;
+    background-color: #e0e0e0;
     color: @secondary-color-light;
-    border: solid black 1px;
   }
 
   .tablet({ &[style] {

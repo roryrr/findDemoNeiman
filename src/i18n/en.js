@@ -23,7 +23,7 @@ angular.module('ebApp').config(['$translateProvider', function($translateProvide
       BRAND: 'Designer',
       CATEGORYNAME: 'Category',
       PRODUCT_EFFECTIVEPRICE_CENTS: 'Price',
-      PRODUCT_SALEPRICE_CENTS: 'Price',
+      PRODUCT_SALEPRICE_CENTS:'Sale Price',
       PRODUCT_PRICECENTS: 'Price',
       COLORGROUP: 'Colour',
       SIZE: 'Size',
